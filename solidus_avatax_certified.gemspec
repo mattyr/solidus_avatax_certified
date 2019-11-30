@@ -22,7 +22,8 @@ Gem::Specification.new do |s|
   s.requirements << "none"
 
   solidus_version = [">= 2.3.0", "< 3.0.0"]
-  s.add_dependency 'solidus', solidus_version
+  s.add_dependency 'solidus_core', solidus_version
+  s.add_dependency 'solidus_backend', solidus_version
   s.add_dependency "solidus_support"
   s.add_dependency 'deface'
   s.add_dependency "json", "~> 2.0"
